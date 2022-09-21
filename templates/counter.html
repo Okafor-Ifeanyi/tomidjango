@@ -1,0 +1,12 @@
+<h1>
+    Total amount of words inputed was {{num}}
+</h1>
+
+{% for post in posts %}
+<h1><a href="post/{{post}}">post</a></h1>
+{% endfor %}
+
+<!--  
+{% for post in posts %}
+<h1><a href="{% url 'post' post.id%}">post</a></h1>
+{% endfor %} -->
